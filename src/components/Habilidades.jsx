@@ -6,9 +6,6 @@ import Java from "../img/tech/java.png"
 import CSS from "../img/tech/css.png"
 import HTML from "../img/tech/html.png"
 
-
-
-
 const SHabilidades = styled.div`
     .container{
         display: flex;
@@ -20,31 +17,6 @@ const SHabilidades = styled.div`
         min-height: 65vh;
         max-height: 65vh;
         background-color: #121212;
-    }
-
-    /* Titulo da pagina */
-    .caixa-titulo{
-        display: flex;
-        align-items: center;
-        gap: 0.5vw;
-        margin: 1vw 3vw;
-    }
-
-    .titulo-container{
-        text-align: center;
-        color: #E6E6E6;
-        font-size: 2.2rem;
-        text-shadow: 1px 1px 5px rgb(0 0 0 / 50%);
-        gap: 4vw;
-    }
-
-    .bola {
-        border-radius: 50%;
-        display: inline-block;
-        height: 1rem;
-        width: 1rem;
-        background-color: #FFC303;
-        box-shadow: 1px 1px 5px rgb(0 0 0 / 25%)
     }
 
     /* Habilidades Pagina */
@@ -156,8 +128,8 @@ const SHabilidades = styled.div`
 
     @media(max-height: 1980px){
         .container{
-            min-height: 68vh;
-            max-height: 68vh;
+            min-height: 61vh;
+            max-height: 61vh;
         }
     }
 `

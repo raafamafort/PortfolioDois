@@ -68,8 +68,8 @@ const SHome = styled.div`
 
     @media(max-height: 1980px){
         .container{
-            min-height: 68vh;
-            max-height: 68vh;
+            min-height: 61vh;
+            max-height: 61vh;
         }
     }
 
@@ -83,7 +83,7 @@ export default function Home(){
                 <div class="texto">
                     <h2>"Hello World!"</h2>
                     <p>Eu sou</p>
-                    <h1>Rafael Mafort Comibra</h1>
+                    <h1>Rafael Mafort Coimbra</h1>
                     <h3>Desenvolvedor Full-Stack</h3>
                 </div>
             </div>
