@@ -4,7 +4,6 @@ import Sobre from './components/Sobre';
 import Habilidades from './components/Habilidades';
 import Projetos from './components/Projetos';
 import './App.css'
-import Logo from "./img/logo.png"
 import Footer from './components/Footer';
 
 export default function App(){
@@ -13,7 +12,6 @@ export default function App(){
     <Router>
     <div className='App'>
       <div className='header'>
-        <img src={Logo} className="logo"/>
         <ul className='menu'>
           <li className='itens-menu'> <Link className='itens' to='/'>Home</Link> </li>
           <li className='itens-menu'> <Link className='itens' to='/Sobre'>Sobre</Link></li>

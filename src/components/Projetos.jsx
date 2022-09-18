@@ -4,8 +4,8 @@ import Java from "../img/tech/java.png"
 import React from "../img/tech/react.png"
 import HTML from "../img/tech/html.png"
 import CSS from "../img/tech/css.png"
-import PT from "../img/projetos/PT-Logo.png"
 import DevLogo from "../img/projetos/DevRafael.png"
+import Logo from "../img/projetos/logo.png"
 
 const SProjetos = styled.div`
 
@@ -163,8 +163,33 @@ const SProjetos = styled.div`
 
     @media(max-height: 1980px){
         .container{
-            min-height: 68vh;
-            max-height: 68vh;
+            min-height: 61vh;
+            max-height: 61vh;
+        }
+    }
+
+    @media(max-width: 768px){
+        .cards-projetos{
+            flex-direction: column;
+
+            .imagem-projeto{
+                width: 50vw;
+                height: 50vh;
+
+                img{
+                    max-height: 9vh;
+                }
+            }
+            
+            .legenda-projeto{
+                width: 50vw;
+                height: 15vh;
+            }
+
+            .card-projeto{
+                width: 50vw;
+                height: 15vh;
+            }
         }
     }
 
@@ -191,9 +216,9 @@ export default function Projetos(){
                                     </div>
                                 </div>
                             </a>
-                            <a class="card-projeto" target="_blank">
+                            <a class="card-projeto" target="_blank" href="https://portfoliormc.netlify.app">
                                 <div className="imagem-projeto pt-img">
-                                    <img src={PT} alt="template portfolio" />
+                                    <img src={DevLogo} alt="template portfolio" />
                                 </div>
                                 <div className="legenda-projeto pt">
                                     <div className="titulo-projeto pt">
@@ -205,9 +230,9 @@ export default function Projetos(){
                                     </div>
                                 </div>
                             </a>
-                            <a class="card-projeto" target="_blank">
+                            <a class="card-projeto" target="_blank" href="https://github.com/raafamafort/Portfolio">
                                 <div className="imagem-projeto dev-img">
-                                    <img src={DevLogo} alt="codify" />
+                                    <img src={Logo} alt="codify" />
                                 </div>
                                 <div className="legenda-projeto">
                                     <div className="titulo-projeto">
