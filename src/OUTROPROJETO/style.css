@@ -1,0 +1,204 @@
+/* ALL */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Code', monospace
+}
+
+body{background-color: #191919;}
+
+p{color: #F8F8F2;}
+
+/* HEADER */
+
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #303030;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+.header-left img{width: 3.8rem; padding-left: 1rem;}
+
+.header-menu{
+    display: flex;
+    padding-right: 2.8rem;
+    gap: 4rem;
+}
+
+.header-menu a{text-decoration: 0;color: #F8F8F2; font-size: 1.2rem;}
+
+/* CORPO */
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191919;
+    height: 100%;
+    gap: 10rem;
+}
+
+
+/* HOME */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 5rem;
+    height: 100vh;
+}
+
+.home-texto{
+    text-align: center;
+}
+
+.home-texto h1{ color: #E4639E; font-size: 4rem;}
+
+.home-texto h2{ color: #49C663; font-size: 3.5rem;}
+
+.home-texto p{font-size: 3rem;}
+
+/* SOBRE MIM */
+
+.sobre{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 3em;
+    margin: 0rem 15rem;
+}
+
+.titulo{color: #49C663; font-size: 3rem;}
+
+.texto p{font-size: 2rem;}
+.texto{display: flex; flex-direction: column; gap: 30px;}
+
+/* HABILIDADES */
+
+.habilidades{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.cards-habilidade{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.card-tech{
+    display: flex;
+    flex-direction: column;
+    background-color: #303030;
+    width: 13rem;
+    height: 8rem;
+    padding: 3rem 0rem;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 2.5rem;
+    gap: 1rem;
+    box-shadow: rgb(0 0 0 / 5%) 0px 5px 10px;
+    font-size: 1.2rem;
+}
+
+.card-tres{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.card-tech img{width: 5rem;}
+
+/* PROJETOS */
+
+.projetos{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.cards-projeto{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+/* CARDS PROJETO */
+#card-projeto {
+    background-color: transparent;
+    width: 40rem;
+    height: 20rem;
+    perspective: 1000px;
+    border: none;
+  }
+  
+  .card-inner {
+    position: relative;
+    width: 40rem;
+    height: 20rem;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  #card-projeto:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .card-front, .card-back {
+    background-color: #F2F3F6;
+    position: absolute;
+    width: 40rem;
+    height: 20rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 3rem;
+  }
+  
+  .card-front{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-front img{width: 20rem;}
+
+  .card-back img{width: 3rem;}
+  
+  .card-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    background-color: #303030;
+    transform: rotateY(180deg);
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+
+  .click{
+    color: rgba(0, 225, 255, 0.725);
+
+  }

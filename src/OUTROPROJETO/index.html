@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Rafael</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header" id="modo-header">
+        <div class="header-left">
+            <img src="./img/rosto.png" alt="logo">
+        </div>
+        <div class="header-right">
+            <nav class="header-menu">
+                <a href="#home">Home</a>
+                <a href="#sobre">Sobre mim</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+                <button onclick="toggleMode()">TEMA</button>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="corpo">
+            <section id="home">
+                <div class="container">
+                    <div class="home-texto">
+                        <h2>"Hello World!"</h2><br>
+                        <p>I'm</p>
+                        <h1><span><</span>Rafael Mafort Coimbra></h1>
+                        <p>Full-Stack Developer</p>
+                    </div>
+                </div>
+            </section>
+            <section id="sobre">
+                <div class="sobre">
+                    <h2 class="titulo">Sobre mim</h2>
+                    <div class="texto">
+                        <p>Atualmente estou cursando Análise e Desenvolvimento de Sistemas na FIAP, tenho conhecimento em back-end e front-end além da aplicação de metodologias ágeis, como SCRUM.</p>
+                        <p>Desde sempre fui muito apaixonado por tecnologia, matemática e lógica e pretendo evoluir cada vez mais para me tornar um grande profissional na área.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="habilidades">
+                <div class="habilidades">
+                    <div class="texto-habilidade">
+                        <h2 class="titulo">Habilidades</h2>
+                    </div>
+                    <div class="cards-habilidade">
+                        <div class="card-tres">
+                            <div class="card-tech">
+                                <img src="./img/python.png" alt="python">
+                                <p>Python</p>
+                            </div>
+                            <div class="card-tech">
+                                <img src="./img/java.png" alt="java">
+                                <p>Java</p>
+                            </div>
+                            <div class="card-tech">
+                                <img src="./img/html.png" alt="html">
+                                <p>HTML</p>
+                            </div>
+                        </div>
+                        <div class="card-tres">
+                            <div class="card-tech">
+                                <img src="./img/css.png" alt="css">
+                                <p>Java</p>
+                            </div>
+                            <div class="card-tech">
+                                <img src="./img/js.png" alt="javascript">
+                                <p>javascript</p>
+                            </div>
+                            <div class="card-tech">
+                                <img src="./img/react.png" alt="react">
+                                <p>React</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="projetos">
+                <div class="projetos">
+                    <div class="texto-projetos">
+                        <h2 class="titulo">Projetos</h2>
+                     </div>
+                     <div class="cards-projeto">
+                        <button id="card-projeto">
+                            <div class="card-inner">
+                            <div class="card-front">
+                                <img src="/img/codify-logo.png" alt="">
+                            </div>
+                            <a class="card-back" href="https://codifyy.tech/" target="_blank">
+                                <p>A Codify visa preparar candidatos para o mercado de trabalho, fornecendo materiais, exercícios e testes técnicos usados por empresas em seus processos seletivos.</p>
+                                <div class="projeto-tech">
+                                    <img src="./img/java.png" alt="">
+                                    <img src="./img/react.png" alt="">
+                                </div>
+                                <p class="click">click para saber mais</p>
+                            </a>
+                            </div>
+                        </button>
+                        <button id="card-projeto">
+                            <div class="card-inner">
+                            <div class="card-front">
+                                <img src="/img/ola.png" alt="">
+                            </div>
+                            <a class="card-back">
+                                <p>Meu primeiro portifolio, usado para mostrar minhas habilidades, conhecimento e alguns projetos. Além de me apresentar e falar um pouco sobre mim</p>
+                                <div class="projeto-tech">
+                                    <img src="./img/html.png" alt="">
+                                    <img src="./img/css.png" alt="">
+                                </div>
+                                <p class="click">click para saber mais</p>
+                            </a>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section id="contato">
+
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
