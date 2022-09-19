@@ -4,7 +4,8 @@ Site criado por mim para mostrar alguns dos meus projetos, também trata-se de u
 
 ## Tecnologias utilizadas
 
-<li>React</li>
+![react](https://user-images.githubusercontent.com/101189058/191051538-be2197e4-3ce4-469e-81bc-7dbf7e047588.png)
+<img src="https://user-images.githubusercontent.com/101189058/191051538-be2197e4-3ce4-469e-81bc-7dbf7e047588.png" width="30" height="30">
 
 ## Contato
 
