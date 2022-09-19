@@ -2,7 +2,7 @@
 
 Site criado por mim para mostrar alguns dos meus projetos, também trata-se de uma demostração prática das minhas habilidades.
 
-## Tecnologias utilizadas
+##🛠 Tecnologias utilizadas
 
 <img src="https://user-images.githubusercontent.com/101189058/191051538-be2197e4-3ce4-469e-81bc-7dbf7e047588.png" width="30" height="30">
 
