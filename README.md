@@ -1,10 +1,10 @@
 
-<h1 align="center" dir="auto">Portfolio Pessoal</h1>
+<h1 align="center" dir="auto">Portfolio Dois</h1>
 
 
 <h2>⚡Sobre:</h2>
 
-Site criado por mim para mostrar alguns dos meus projetos, também trata-se de uma demostração prática das minhas habilidades.
+O portfólio é um material (físico ou online) que reúne amostras de seus melhores trabalhos. Trata-se de uma demonstração prática de suas habilidades e experiências profissionais e/ou acadêmicas, o que será fundamental para o recrutador avaliar se você é criativo e se domina as técnicas e habilidades que o cargo exige.
 
 <h2>🛠Tecnologias:</h2>
 <div>
